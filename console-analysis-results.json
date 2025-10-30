@@ -1,0 +1,67 @@
+[
+  {
+    "page": "map",
+    "url": "https://3008-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/map",
+    "errors": [],
+    "warnings": [
+      "https://3008-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/map - [GroupMarkerNotSet(crbug.com/242999)!:A0701B005C150000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content."
+    ],
+    "info": [
+      "webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js 25630:16 \"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools\" \"font-weight:bold\""
+    ],
+    "screenshot": "final-check-map.png"
+  },
+  {
+    "page": "feed",
+    "url": "https://3008-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/feed",
+    "errors": [],
+    "warnings": [],
+    "info": [
+      "webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js 25630:16 \"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools\" \"font-weight:bold\"",
+      "about://React/Server/webpack-internal:///(rsc)/./lib/actions/feed.ts?0 20:20 \"%c%s%c [Feed] DATABASE_URL not configured, returning mock data\" \"background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px\" \" Server \" \"\""
+    ],
+    "screenshot": "final-check-feed.png"
+  },
+  {
+    "page": "wallet",
+    "url": "https://3008-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/wallet",
+    "errors": [],
+    "warnings": [],
+    "info": [
+      "webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js 25630:16 \"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools\" \"font-weight:bold\"",
+      "about://React/Server/webpack-internal:///(rsc)/./lib/actions/wallet.ts?0 18:20 \"%c%s%c [Wallet] Using mock data\" \"background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px\" \" Server \" \"\""
+    ],
+    "screenshot": "final-check-wallet.png"
+  },
+  {
+    "page": "profile",
+    "url": "https://3008-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/profile",
+    "errors": [],
+    "warnings": [],
+    "info": [
+      "webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js 25630:16 \"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools\" \"font-weight:bold\"",
+      "about://React/Server/webpack-internal:///(rsc)/./lib/actions/profile.ts?0 18:20 \"%c%s%c [Profile] Using mock data\" \"background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px\" \" Server \" \"\""
+    ],
+    "screenshot": "final-check-profile.png"
+  },
+  {
+    "page": "notifications",
+    "url": "https://3008-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+    "errors": [],
+    "warnings": [],
+    "info": [
+      "webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js 25630:16 \"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools\" \"font-weight:bold\""
+    ],
+    "screenshot": "final-check-notifications.png"
+  },
+  {
+    "page": "settings",
+    "url": "https://3008-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+    "errors": [],
+    "warnings": [],
+    "info": [
+      "webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js 25630:16 \"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools\" \"font-weight:bold\""
+    ],
+    "screenshot": "final-check-settings.png"
+  }
+]
