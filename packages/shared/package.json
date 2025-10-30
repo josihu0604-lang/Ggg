@@ -1,0 +1,21 @@
+{
+  "name": "@zzik/shared",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "dependencies": {
+    "@upstash/redis": "^1.34.3",
+    "@zzik/database": "workspace:*",
+    "h3-js": "^4.1.0",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "nanoid": "^5.1.6",
+    "qrcode": "^1.5.4",
+    "stripe": "^17.3.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^20.0.0",
+    "@types/qrcode": "^1.5.5"
+  }
+}

@@ -1,0 +1,2862 @@
+{
+  "summary": {
+    "totalErrors": 248,
+    "bySeverity": {
+      "critical": 46,
+      "high": 47,
+      "medium": 155,
+      "low": 0
+    },
+    "byCategory": {
+      "Console Error": 36,
+      "Console Warning": 15,
+      "Network Error": 6,
+      "CSS/Style Error": 142,
+      "JavaScript Error": 4,
+      "React Error": 0,
+      "Hydration Mismatch": 0,
+      "Accessibility Issue": 0,
+      "Performance Warning": 0,
+      "Security Issue": 0,
+      "404 Resource Not Found": 45,
+      "CORS Error": 0
+    },
+    "byPage": {
+      "Feed": 46,
+      "Map": 44,
+      "Wallet": 35,
+      "Profile": 33,
+      "Root": 34,
+      "Settings": 30,
+      "Notifications": 26
+    }
+  },
+  "errors": [
+    {
+      "id": 1,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: HTML",
+      "timestamp": "2025-10-29T05:55:23.546Z"
+    },
+    {
+      "id": 2,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:23.547Z"
+    },
+    {
+      "id": 3,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:23.547Z"
+    },
+    {
+      "id": 4,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:55:23.547Z"
+    },
+    {
+      "id": 5,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:55:23.547Z"
+    },
+    {
+      "id": 6,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:23.547Z"
+    },
+    {
+      "id": 7,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:23.547Z"
+    },
+    {
+      "id": 8,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:23.547Z"
+    },
+    {
+      "id": 9,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:23.547Z"
+    },
+    {
+      "id": 10,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:23.547Z"
+    },
+    {
+      "id": 11,
+      "category": "CSS/Style Error",
+      "severity": "HIGH",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "Missing expected element: [role=\"navigation\"]",
+      "details": "Page should contain element matching [role=\"navigation\"]",
+      "timestamp": "2025-10-29T05:55:23.590Z"
+    },
+    {
+      "id": 12,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "Request failed: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/webpack.13e6f30384663754.hot-update.js",
+      "details": "net::ERR_ABORTED",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/webpack.13e6f30384663754.hot-update.js",
+      "timestamp": "2025-10-29T05:55:24.655Z"
+    },
+    {
+      "id": 13,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "Request failed: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/webpack.13e6f30384663754.hot-update.js",
+      "details": "net::ERR_ABORTED",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/webpack.13e6f30384663754.hot-update.js",
+      "timestamp": "2025-10-29T05:55:24.655Z"
+    },
+    {
+      "id": 14,
+      "category": "Console Warning",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "The map container element should be empty, otherwise the map's interactivity will be negatively impacted. If you want to display a message when WebGL is not supported, use the Mapbox GL Supported plugin instead.",
+      "location": {
+        "url": "webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js",
+        "lineNumber": 29,
+        "columnNumber": 14001
+      },
+      "details": "Console warning: The map container element should be empty, otherwise the map's interactivity will be negatively impacted. If you want to display a message when WebGL is not supported, use the Mapbox GL Supported plugin instead.",
+      "timestamp": "2025-10-29T05:55:25.692Z"
+    },
+    {
+      "id": 15,
+      "category": "Console Warning",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "The map container element should be empty, otherwise the map's interactivity will be negatively impacted. If you want to display a message when WebGL is not supported, use the Mapbox GL Supported plugin instead.",
+      "location": {
+        "url": "webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js",
+        "lineNumber": 29,
+        "columnNumber": 14001
+      },
+      "details": "Console warning: The map container element should be empty, otherwise the map's interactivity will be negatively impacted. If you want to display a message when WebGL is not supported, use the Mapbox GL Supported plugin instead.",
+      "timestamp": "2025-10-29T05:55:25.692Z"
+    },
+    {
+      "id": 16,
+      "category": "JavaScript Error",
+      "severity": "CRITICAL",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "An API access token is required to use Mapbox GL. See https://docs.mapbox.com/api/overview/#access-tokens-and-token-scopes",
+      "stack": "Error: An API access token is required to use Mapbox GL. See https://docs.mapbox.com/api/overview/#access-tokens-and-token-scopes\n    at T._makeAPIURL (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:6426)\n    at T.normalizeStyleURL (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:3668)\n    at Ao.loadURL (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:250712)\n    at Ao.load (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:249910)\n    at Map._updateStyle (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:849726)\n    at Map.setStyle (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:849382)\n    at new Map (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:838323)\n    at InteractiveMap.useEffect (webpack-internal:///(app-pages-browser)/./components/map/InteractiveMap.tsx:27:25)\n    at Object.react_stack_bottom_frame (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:23669:20)\n    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30)\n    at commitHookEffectListMount (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:12345:29)\n    at commitHookPassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:12466:11)\n    at reconnectPassiveEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14563:11)\n    at recursivelyTraverseReconnectPassiveEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14534:9)\n    at reconnectPassiveEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14556:11)\n    at recursivelyTraverseReconnectPassiveEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14534:9)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14493:17)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14458:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14485:17)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14458:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14514:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14514:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14514:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14390:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)",
+      "details": "JavaScript error: An API access token is required to use Mapbox GL. See https://docs.mapbox.com/api/overview/#access-tokens-and-token-scopes",
+      "timestamp": "2025-10-29T05:55:25.723Z"
+    },
+    {
+      "id": 17,
+      "category": "JavaScript Error",
+      "severity": "CRITICAL",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "An API access token is required to use Mapbox GL. See https://docs.mapbox.com/api/overview/#access-tokens-and-token-scopes",
+      "stack": "Error: An API access token is required to use Mapbox GL. See https://docs.mapbox.com/api/overview/#access-tokens-and-token-scopes\n    at T._makeAPIURL (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:6426)\n    at T.normalizeStyleURL (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:3668)\n    at Ao.loadURL (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:250712)\n    at Ao.load (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:249910)\n    at Map._updateStyle (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:849726)\n    at Map.setStyle (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:849382)\n    at new Map (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:838323)\n    at InteractiveMap.useEffect (webpack-internal:///(app-pages-browser)/./components/map/InteractiveMap.tsx:27:25)\n    at Object.react_stack_bottom_frame (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:23669:20)\n    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30)\n    at commitHookEffectListMount (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:12345:29)\n    at commitHookPassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:12466:11)\n    at reconnectPassiveEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14563:11)\n    at recursivelyTraverseReconnectPassiveEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14534:9)\n    at reconnectPassiveEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14556:11)\n    at recursivelyTraverseReconnectPassiveEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14534:9)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14493:17)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14458:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14485:17)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14458:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14514:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14514:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14514:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14390:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)",
+      "details": "JavaScript error: An API access token is required to use Mapbox GL. See https://docs.mapbox.com/api/overview/#access-tokens-and-token-scopes",
+      "timestamp": "2025-10-29T05:55:25.723Z"
+    },
+    {
+      "id": 18,
+      "category": "Console Warning",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "[GroupMarkerNotSet(crbug.com/242999)!:A0E01D0084360000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/map",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console warning: [GroupMarkerNotSet(crbug.com/242999)!:A0E01D0084360000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+      "timestamp": "2025-10-29T05:55:25.724Z"
+    },
+    {
+      "id": 19,
+      "category": "Console Warning",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "[GroupMarkerNotSet(crbug.com/242999)!:A0E01D0084360000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/map",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console warning: [GroupMarkerNotSet(crbug.com/242999)!:A0E01D0084360000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+      "timestamp": "2025-10-29T05:55:25.724Z"
+    },
+    {
+      "id": 20,
+      "category": "Console Warning",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "[GroupMarkerNotSet(crbug.com/242999)!:A0B01D0084360000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/map",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console warning: [GroupMarkerNotSet(crbug.com/242999)!:A0B01D0084360000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+      "timestamp": "2025-10-29T05:55:25.725Z"
+    },
+    {
+      "id": 21,
+      "category": "Console Warning",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "[GroupMarkerNotSet(crbug.com/242999)!:A0B01D0084360000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/map",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console warning: [GroupMarkerNotSet(crbug.com/242999)!:A0B01D0084360000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+      "timestamp": "2025-10-29T05:55:25.725Z"
+    },
+    {
+      "id": 22,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: HTML#__next_error__",
+      "timestamp": "2025-10-29T05:55:32.903Z"
+    },
+    {
+      "id": 23,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:55:32.903Z"
+    },
+    {
+      "id": 24,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:55:32.903Z"
+    },
+    {
+      "id": 25,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:55:32.903Z"
+    },
+    {
+      "id": 26,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:32.903Z"
+    },
+    {
+      "id": 27,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:32.903Z"
+    },
+    {
+      "id": 28,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:32.903Z"
+    },
+    {
+      "id": 29,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:32.903Z"
+    },
+    {
+      "id": 30,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:32.903Z"
+    },
+    {
+      "id": 31,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:55:32.903Z"
+    },
+    {
+      "id": 32,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "Request failed: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/373582ebb4f01d1f.webpack.hot-update.json",
+      "details": "net::ERR_ABORTED",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/373582ebb4f01d1f.webpack.hot-update.json",
+      "timestamp": "2025-10-29T05:55:33.738Z"
+    },
+    {
+      "id": 33,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "Request failed: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/373582ebb4f01d1f.webpack.hot-update.json",
+      "details": "net::ERR_ABORTED",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/373582ebb4f01d1f.webpack.hot-update.json",
+      "timestamp": "2025-10-29T05:55:33.738Z"
+    },
+    {
+      "id": 34,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "Request failed: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/373582ebb4f01d1f.webpack.hot-update.json",
+      "details": "net::ERR_ABORTED",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/373582ebb4f01d1f.webpack.hot-update.json",
+      "timestamp": "2025-10-29T05:55:33.738Z"
+    },
+    {
+      "id": 35,
+      "category": "Console Warning",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "[Fast Refresh] performing full reload\n\nFast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.\nYou might have a file which exports a React component but also exports a value that is imported by a non-React component file.\nConsider migrating the non-React component export to a separate file and importing it into both files.\n\nIt is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.\nFast Refresh requires at least one parent function component in your React tree.",
+      "location": {
+        "url": "webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js",
+        "lineNumber": 111,
+        "columnNumber": 24
+      },
+      "details": "Console warning: [Fast Refresh] performing full reload\n\nFast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.\nYou might have a file which exports a React component but also exports a value that is imported by a non-React component file.\nConsider migrating the non-React component export to a separate file and importing it into both files.\n\nIt is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.\nFast Refresh requires at least one parent function component in your React tree.",
+      "timestamp": "2025-10-29T05:55:33.738Z"
+    },
+    {
+      "id": 36,
+      "category": "Console Warning",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "[Fast Refresh] performing full reload\n\nFast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.\nYou might have a file which exports a React component but also exports a value that is imported by a non-React component file.\nConsider migrating the non-React component export to a separate file and importing it into both files.\n\nIt is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.\nFast Refresh requires at least one parent function component in your React tree.",
+      "location": {
+        "url": "webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js",
+        "lineNumber": 111,
+        "columnNumber": 24
+      },
+      "details": "Console warning: [Fast Refresh] performing full reload\n\nFast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.\nYou might have a file which exports a React component but also exports a value that is imported by a non-React component file.\nConsider migrating the non-React component export to a separate file and importing it into both files.\n\nIt is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.\nFast Refresh requires at least one parent function component in your React tree.",
+      "timestamp": "2025-10-29T05:55:33.738Z"
+    },
+    {
+      "id": 37,
+      "category": "Console Warning",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "[Fast Refresh] performing full reload\n\nFast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.\nYou might have a file which exports a React component but also exports a value that is imported by a non-React component file.\nConsider migrating the non-React component export to a separate file and importing it into both files.\n\nIt is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.\nFast Refresh requires at least one parent function component in your React tree.",
+      "location": {
+        "url": "webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js",
+        "lineNumber": 111,
+        "columnNumber": 24
+      },
+      "details": "Console warning: [Fast Refresh] performing full reload\n\nFast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.\nYou might have a file which exports a React component but also exports a value that is imported by a non-React component file.\nConsider migrating the non-React component export to a separate file and importing it into both files.\n\nIt is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.\nFast Refresh requires at least one parent function component in your React tree.",
+      "timestamp": "2025-10-29T05:55:33.738Z"
+    },
+    {
+      "id": 38,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: HTML",
+      "timestamp": "2025-10-29T05:55:37.796Z"
+    },
+    {
+      "id": 39,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:37.796Z"
+    },
+    {
+      "id": 40,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:37.796Z"
+    },
+    {
+      "id": 41,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:55:37.796Z"
+    },
+    {
+      "id": 42,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:55:37.796Z"
+    },
+    {
+      "id": 43,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:37.796Z"
+    },
+    {
+      "id": 44,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:37.796Z"
+    },
+    {
+      "id": 45,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:37.796Z"
+    },
+    {
+      "id": 46,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:37.796Z"
+    },
+    {
+      "id": 47,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:37.796Z"
+    },
+    {
+      "id": 48,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "Request failed: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/webpack.b4b8a805388f48ba.hot-update.js",
+      "details": "net::ERR_ABORTED",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/webpack.b4b8a805388f48ba.hot-update.js",
+      "timestamp": "2025-10-29T05:55:38.487Z"
+    },
+    {
+      "id": 49,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "Request failed: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/webpack.b4b8a805388f48ba.hot-update.js",
+      "details": "net::ERR_ABORTED",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/webpack.b4b8a805388f48ba.hot-update.js",
+      "timestamp": "2025-10-29T05:55:38.487Z"
+    },
+    {
+      "id": 50,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "Request failed: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/webpack.b4b8a805388f48ba.hot-update.js",
+      "details": "net::ERR_ABORTED",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/webpack.b4b8a805388f48ba.hot-update.js",
+      "timestamp": "2025-10-29T05:55:38.487Z"
+    },
+    {
+      "id": 51,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "Request failed: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/webpack.b4b8a805388f48ba.hot-update.js",
+      "details": "net::ERR_ABORTED",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/_next/static/webpack/webpack.b4b8a805388f48ba.hot-update.js",
+      "timestamp": "2025-10-29T05:55:38.487Z"
+    },
+    {
+      "id": 52,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: HTML",
+      "timestamp": "2025-10-29T05:55:42.547Z"
+    },
+    {
+      "id": 53,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:42.547Z"
+    },
+    {
+      "id": 54,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:42.547Z"
+    },
+    {
+      "id": 55,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:55:42.547Z"
+    },
+    {
+      "id": 56,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:55:42.547Z"
+    },
+    {
+      "id": 57,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:42.547Z"
+    },
+    {
+      "id": 58,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:42.547Z"
+    },
+    {
+      "id": 59,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:42.547Z"
+    },
+    {
+      "id": 60,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:42.547Z"
+    },
+    {
+      "id": 61,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:42.547Z"
+    },
+    {
+      "id": 62,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:44.081Z"
+    },
+    {
+      "id": 63,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:44.081Z"
+    },
+    {
+      "id": 64,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:44.081Z"
+    },
+    {
+      "id": 65,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:44.081Z"
+    },
+    {
+      "id": 66,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:44.081Z"
+    },
+    {
+      "id": 67,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:44.085Z"
+    },
+    {
+      "id": 68,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:44.085Z"
+    },
+    {
+      "id": 69,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:44.085Z"
+    },
+    {
+      "id": 70,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:44.085Z"
+    },
+    {
+      "id": 71,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:44.085Z"
+    },
+    {
+      "id": 72,
+      "category": "Network Error",
+      "severity": "CRITICAL",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "Page failed to load: 404",
+      "details": "Navigation error for /",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:45.208Z"
+    },
+    {
+      "id": 73,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: HTML",
+      "timestamp": "2025-10-29T05:55:48.215Z"
+    },
+    {
+      "id": 74,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:48.215Z"
+    },
+    {
+      "id": 75,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:48.215Z"
+    },
+    {
+      "id": 76,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:55:48.215Z"
+    },
+    {
+      "id": 77,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:48.215Z"
+    },
+    {
+      "id": 78,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:48.215Z"
+    },
+    {
+      "id": 79,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:48.215Z"
+    },
+    {
+      "id": 80,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:48.215Z"
+    },
+    {
+      "id": 81,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: BODY",
+      "timestamp": "2025-10-29T05:55:48.215Z"
+    },
+    {
+      "id": 82,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: DIV",
+      "timestamp": "2025-10-29T05:55:48.215Z"
+    },
+    {
+      "id": 83,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:48.276Z"
+    },
+    {
+      "id": 84,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:48.276Z"
+    },
+    {
+      "id": 85,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:48.276Z"
+    },
+    {
+      "id": 86,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:48.276Z"
+    },
+    {
+      "id": 87,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:48.276Z"
+    },
+    {
+      "id": 88,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Settings",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:48.276Z"
+    },
+    {
+      "id": 89,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:48.282Z"
+    },
+    {
+      "id": 90,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:48.282Z"
+    },
+    {
+      "id": 91,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:48.282Z"
+    },
+    {
+      "id": 92,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:48.282Z"
+    },
+    {
+      "id": 93,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:48.282Z"
+    },
+    {
+      "id": 94,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Settings",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:48.282Z"
+    },
+    {
+      "id": 95,
+      "category": "Network Error",
+      "severity": "CRITICAL",
+      "page": "Settings",
+      "viewport": "desktop",
+      "message": "Page failed to load: 404",
+      "details": "Navigation error for /settings",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:49.490Z"
+    },
+    {
+      "id": 96,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: HTML",
+      "timestamp": "2025-10-29T05:55:52.497Z"
+    },
+    {
+      "id": 97,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:52.497Z"
+    },
+    {
+      "id": 98,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:52.497Z"
+    },
+    {
+      "id": 99,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:55:52.497Z"
+    },
+    {
+      "id": 100,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:52.497Z"
+    },
+    {
+      "id": 101,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:52.497Z"
+    },
+    {
+      "id": 102,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:52.497Z"
+    },
+    {
+      "id": 103,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:52.497Z"
+    },
+    {
+      "id": 104,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: BODY",
+      "timestamp": "2025-10-29T05:55:52.497Z"
+    },
+    {
+      "id": 105,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: DIV",
+      "timestamp": "2025-10-29T05:55:52.497Z"
+    },
+    {
+      "id": 106,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:52.561Z"
+    },
+    {
+      "id": 107,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:52.561Z"
+    },
+    {
+      "id": 108,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:52.561Z"
+    },
+    {
+      "id": 109,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:52.561Z"
+    },
+    {
+      "id": 110,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:52.561Z"
+    },
+    {
+      "id": 111,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Settings",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:52.561Z"
+    },
+    {
+      "id": 112,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Notifications",
+      "viewport": "desktop",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:52.561Z"
+    },
+    {
+      "id": 113,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Feed",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:52.565Z"
+    },
+    {
+      "id": 114,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Map",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:52.565Z"
+    },
+    {
+      "id": 115,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Wallet",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:52.565Z"
+    },
+    {
+      "id": 116,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Profile",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:52.565Z"
+    },
+    {
+      "id": 117,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Root",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:52.565Z"
+    },
+    {
+      "id": 118,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Settings",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:52.565Z"
+    },
+    {
+      "id": 119,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Notifications",
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:55:52.565Z"
+    },
+    {
+      "id": 120,
+      "category": "Network Error",
+      "severity": "CRITICAL",
+      "page": "Notifications",
+      "viewport": "desktop",
+      "message": "Page failed to load: 404",
+      "details": "Navigation error for /notifications",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:55:53.612Z"
+    },
+    {
+      "id": 121,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: HTML",
+      "timestamp": "2025-10-29T05:55:56.619Z"
+    },
+    {
+      "id": 122,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:56.619Z"
+    },
+    {
+      "id": 123,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:56.619Z"
+    },
+    {
+      "id": 124,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:55:56.619Z"
+    },
+    {
+      "id": 125,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:56.619Z"
+    },
+    {
+      "id": 126,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:56.619Z"
+    },
+    {
+      "id": 127,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:55:56.619Z"
+    },
+    {
+      "id": 128,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:55:56.619Z"
+    },
+    {
+      "id": 129,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: BODY",
+      "timestamp": "2025-10-29T05:55:56.619Z"
+    },
+    {
+      "id": 130,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "desktop",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: DIV",
+      "timestamp": "2025-10-29T05:55:56.619Z"
+    },
+    {
+      "id": 131,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: HTML",
+      "timestamp": "2025-10-29T05:56:00.588Z"
+    },
+    {
+      "id": 132,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:00.588Z"
+    },
+    {
+      "id": 133,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:00.588Z"
+    },
+    {
+      "id": 134,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:56:00.588Z"
+    },
+    {
+      "id": 135,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:56:00.588Z"
+    },
+    {
+      "id": 136,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:00.588Z"
+    },
+    {
+      "id": 137,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:00.588Z"
+    },
+    {
+      "id": 138,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:00.588Z"
+    },
+    {
+      "id": 139,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:00.588Z"
+    },
+    {
+      "id": 140,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:00.588Z"
+    },
+    {
+      "id": 141,
+      "category": "CSS/Style Error",
+      "severity": "HIGH",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "Missing expected element: [role=\"navigation\"]",
+      "details": "Page should contain element matching [role=\"navigation\"]",
+      "timestamp": "2025-10-29T05:56:00.632Z"
+    },
+    {
+      "id": 142,
+      "category": "Console Warning",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "The map container element should be empty, otherwise the map's interactivity will be negatively impacted. If you want to display a message when WebGL is not supported, use the Mapbox GL Supported plugin instead.",
+      "location": {
+        "url": "webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js",
+        "lineNumber": 29,
+        "columnNumber": 14001
+      },
+      "details": "Console warning: The map container element should be empty, otherwise the map's interactivity will be negatively impacted. If you want to display a message when WebGL is not supported, use the Mapbox GL Supported plugin instead.",
+      "timestamp": "2025-10-29T05:56:01.901Z"
+    },
+    {
+      "id": 143,
+      "category": "Console Warning",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "The map container element should be empty, otherwise the map's interactivity will be negatively impacted. If you want to display a message when WebGL is not supported, use the Mapbox GL Supported plugin instead.",
+      "location": {
+        "url": "webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js",
+        "lineNumber": 29,
+        "columnNumber": 14001
+      },
+      "details": "Console warning: The map container element should be empty, otherwise the map's interactivity will be negatively impacted. If you want to display a message when WebGL is not supported, use the Mapbox GL Supported plugin instead.",
+      "timestamp": "2025-10-29T05:56:01.901Z"
+    },
+    {
+      "id": 144,
+      "category": "JavaScript Error",
+      "severity": "CRITICAL",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "An API access token is required to use Mapbox GL. See https://docs.mapbox.com/api/overview/#access-tokens-and-token-scopes",
+      "stack": "Error: An API access token is required to use Mapbox GL. See https://docs.mapbox.com/api/overview/#access-tokens-and-token-scopes\n    at T._makeAPIURL (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:6426)\n    at T.normalizeStyleURL (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:3668)\n    at Ao.loadURL (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:250712)\n    at Ao.load (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:249910)\n    at Map._updateStyle (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:849726)\n    at Map.setStyle (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:849382)\n    at new Map (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:838323)\n    at InteractiveMap.useEffect (webpack-internal:///(app-pages-browser)/./components/map/InteractiveMap.tsx:27:25)\n    at Object.react_stack_bottom_frame (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:23669:20)\n    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30)\n    at commitHookEffectListMount (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:12345:29)\n    at commitHookPassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:12466:11)\n    at reconnectPassiveEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14563:11)\n    at recursivelyTraverseReconnectPassiveEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14534:9)\n    at reconnectPassiveEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14556:11)\n    at recursivelyTraverseReconnectPassiveEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14534:9)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14493:17)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14458:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14485:17)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14458:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14514:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14514:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14514:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14390:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)",
+      "details": "JavaScript error: An API access token is required to use Mapbox GL. See https://docs.mapbox.com/api/overview/#access-tokens-and-token-scopes",
+      "timestamp": "2025-10-29T05:56:01.931Z"
+    },
+    {
+      "id": 145,
+      "category": "JavaScript Error",
+      "severity": "CRITICAL",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "An API access token is required to use Mapbox GL. See https://docs.mapbox.com/api/overview/#access-tokens-and-token-scopes",
+      "stack": "Error: An API access token is required to use Mapbox GL. See https://docs.mapbox.com/api/overview/#access-tokens-and-token-scopes\n    at T._makeAPIURL (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:6426)\n    at T.normalizeStyleURL (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:3668)\n    at Ao.loadURL (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:250712)\n    at Ao.load (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:249910)\n    at Map._updateStyle (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:849726)\n    at Map.setStyle (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:849382)\n    at new Map (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/mapbox-gl@3.16.0/node_modules/mapbox-gl/dist/mapbox-gl.js:42:838323)\n    at InteractiveMap.useEffect (webpack-internal:///(app-pages-browser)/./components/map/InteractiveMap.tsx:27:25)\n    at Object.react_stack_bottom_frame (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:23669:20)\n    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30)\n    at commitHookEffectListMount (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:12345:29)\n    at commitHookPassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:12466:11)\n    at reconnectPassiveEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14563:11)\n    at recursivelyTraverseReconnectPassiveEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14534:9)\n    at reconnectPassiveEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14556:11)\n    at recursivelyTraverseReconnectPassiveEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14534:9)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14493:17)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14458:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14485:17)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14458:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14514:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14514:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14514:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14390:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)\n    at commitPassiveMountOnFiber (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14380:11)\n    at recursivelyTraversePassiveMountEffects (webpack-internal:///(app-pages-browser)/../../node_modules/.pnpm/next@15.5.6_@babel+core@7.28.5_@opentelemetry+api@1.9.0_@playwright+test@1.56.1_react-dom@19._2bipfnfjtvvh5pn5hms5drnk6e/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14360:11)",
+      "details": "JavaScript error: An API access token is required to use Mapbox GL. See https://docs.mapbox.com/api/overview/#access-tokens-and-token-scopes",
+      "timestamp": "2025-10-29T05:56:01.931Z"
+    },
+    {
+      "id": 146,
+      "category": "Console Warning",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "[GroupMarkerNotSet(crbug.com/242999)!:A0E01D0084360000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/map",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console warning: [GroupMarkerNotSet(crbug.com/242999)!:A0E01D0084360000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+      "timestamp": "2025-10-29T05:56:01.931Z"
+    },
+    {
+      "id": 147,
+      "category": "Console Warning",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "[GroupMarkerNotSet(crbug.com/242999)!:A0E01D0084360000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/map",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console warning: [GroupMarkerNotSet(crbug.com/242999)!:A0E01D0084360000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+      "timestamp": "2025-10-29T05:56:01.931Z"
+    },
+    {
+      "id": 148,
+      "category": "Console Warning",
+      "severity": "MEDIUM",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "[GroupMarkerNotSet(crbug.com/242999)!:A0B01D0084360000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/map",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console warning: [GroupMarkerNotSet(crbug.com/242999)!:A0B01D0084360000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+      "timestamp": "2025-10-29T05:56:01.932Z"
+    },
+    {
+      "id": 149,
+      "category": "Console Warning",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "[GroupMarkerNotSet(crbug.com/242999)!:A0B01D0084360000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/map",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console warning: [GroupMarkerNotSet(crbug.com/242999)!:A0B01D0084360000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+      "timestamp": "2025-10-29T05:56:01.932Z"
+    },
+    {
+      "id": 150,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: HTML#__next_error__",
+      "timestamp": "2025-10-29T05:56:06.648Z"
+    },
+    {
+      "id": 151,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:56:06.648Z"
+    },
+    {
+      "id": 152,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:56:06.648Z"
+    },
+    {
+      "id": 153,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:56:06.648Z"
+    },
+    {
+      "id": 154,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:06.648Z"
+    },
+    {
+      "id": 155,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:06.648Z"
+    },
+    {
+      "id": 156,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:06.648Z"
+    },
+    {
+      "id": 157,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:06.648Z"
+    },
+    {
+      "id": 158,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:06.648Z"
+    },
+    {
+      "id": 159,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:56:06.648Z"
+    },
+    {
+      "id": 160,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: HTML",
+      "timestamp": "2025-10-29T05:56:10.874Z"
+    },
+    {
+      "id": 161,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:10.874Z"
+    },
+    {
+      "id": 162,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:10.874Z"
+    },
+    {
+      "id": 163,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:56:10.874Z"
+    },
+    {
+      "id": 164,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:56:10.874Z"
+    },
+    {
+      "id": 165,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:10.874Z"
+    },
+    {
+      "id": 166,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:10.874Z"
+    },
+    {
+      "id": 167,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:10.874Z"
+    },
+    {
+      "id": 168,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:10.874Z"
+    },
+    {
+      "id": 169,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Wallet",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:10.874Z"
+    },
+    {
+      "id": 170,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: HTML",
+      "timestamp": "2025-10-29T05:56:15.055Z"
+    },
+    {
+      "id": 171,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:15.055Z"
+    },
+    {
+      "id": 172,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:15.055Z"
+    },
+    {
+      "id": 173,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:56:15.055Z"
+    },
+    {
+      "id": 174,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:56:15.055Z"
+    },
+    {
+      "id": 175,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:15.055Z"
+    },
+    {
+      "id": 176,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:15.055Z"
+    },
+    {
+      "id": 177,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:15.055Z"
+    },
+    {
+      "id": 178,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:15.055Z"
+    },
+    {
+      "id": 179,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Profile",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:15.055Z"
+    },
+    {
+      "id": 180,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:15.149Z"
+    },
+    {
+      "id": 181,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:15.149Z"
+    },
+    {
+      "id": 182,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Wallet",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:15.149Z"
+    },
+    {
+      "id": 183,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Profile",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:15.149Z"
+    },
+    {
+      "id": 184,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:15.149Z"
+    },
+    {
+      "id": 185,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:15.152Z"
+    },
+    {
+      "id": 186,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:15.152Z"
+    },
+    {
+      "id": 187,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Wallet",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:15.152Z"
+    },
+    {
+      "id": 188,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Profile",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:15.152Z"
+    },
+    {
+      "id": 189,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:15.152Z"
+    },
+    {
+      "id": 190,
+      "category": "Network Error",
+      "severity": "CRITICAL",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "Page failed to load: 404",
+      "details": "Navigation error for /",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:16.194Z"
+    },
+    {
+      "id": 191,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: HTML",
+      "timestamp": "2025-10-29T05:56:19.199Z"
+    },
+    {
+      "id": 192,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:19.199Z"
+    },
+    {
+      "id": 193,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:19.199Z"
+    },
+    {
+      "id": 194,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:56:19.199Z"
+    },
+    {
+      "id": 195,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:19.199Z"
+    },
+    {
+      "id": 196,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:19.199Z"
+    },
+    {
+      "id": 197,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:19.199Z"
+    },
+    {
+      "id": 198,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:19.199Z"
+    },
+    {
+      "id": 199,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: BODY",
+      "timestamp": "2025-10-29T05:56:19.199Z"
+    },
+    {
+      "id": 200,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: DIV",
+      "timestamp": "2025-10-29T05:56:19.199Z"
+    },
+    {
+      "id": 201,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:19.261Z"
+    },
+    {
+      "id": 202,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:19.262Z"
+    },
+    {
+      "id": 203,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Wallet",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:19.262Z"
+    },
+    {
+      "id": 204,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Profile",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:19.262Z"
+    },
+    {
+      "id": 205,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:19.262Z"
+    },
+    {
+      "id": 206,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Settings",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:19.262Z"
+    },
+    {
+      "id": 207,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:19.264Z"
+    },
+    {
+      "id": 208,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:19.264Z"
+    },
+    {
+      "id": 209,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Wallet",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:19.264Z"
+    },
+    {
+      "id": 210,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Profile",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:19.264Z"
+    },
+    {
+      "id": 211,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:19.264Z"
+    },
+    {
+      "id": 212,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Settings",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/settings",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:19.264Z"
+    },
+    {
+      "id": 213,
+      "category": "Network Error",
+      "severity": "CRITICAL",
+      "page": "Settings",
+      "viewport": "mobile",
+      "message": "Page failed to load: 404",
+      "details": "Navigation error for /settings",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:20.281Z"
+    },
+    {
+      "id": 214,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: HTML",
+      "timestamp": "2025-10-29T05:56:23.286Z"
+    },
+    {
+      "id": 215,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:23.286Z"
+    },
+    {
+      "id": 216,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:23.286Z"
+    },
+    {
+      "id": 217,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:56:23.286Z"
+    },
+    {
+      "id": 218,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:23.286Z"
+    },
+    {
+      "id": 219,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:23.286Z"
+    },
+    {
+      "id": 220,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:23.286Z"
+    },
+    {
+      "id": 221,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:23.286Z"
+    },
+    {
+      "id": 222,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: BODY",
+      "timestamp": "2025-10-29T05:56:23.286Z"
+    },
+    {
+      "id": 223,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Settings",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: DIV",
+      "timestamp": "2025-10-29T05:56:23.286Z"
+    },
+    {
+      "id": 224,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:23.337Z"
+    },
+    {
+      "id": 225,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:23.337Z"
+    },
+    {
+      "id": 226,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Wallet",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:23.337Z"
+    },
+    {
+      "id": 227,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Profile",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:23.337Z"
+    },
+    {
+      "id": 228,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:23.337Z"
+    },
+    {
+      "id": 229,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Settings",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:23.337Z"
+    },
+    {
+      "id": 230,
+      "category": "404 Resource Not Found",
+      "severity": "HIGH",
+      "page": "Notifications",
+      "viewport": "mobile",
+      "message": "HTTP 404: https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "details": " - https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:23.337Z"
+    },
+    {
+      "id": 231,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Feed",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:23.340Z"
+    },
+    {
+      "id": 232,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Map",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:23.340Z"
+    },
+    {
+      "id": 233,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Wallet",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:23.340Z"
+    },
+    {
+      "id": 234,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Profile",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:23.340Z"
+    },
+    {
+      "id": 235,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Root",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:23.340Z"
+    },
+    {
+      "id": 236,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Settings",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:23.340Z"
+    },
+    {
+      "id": 237,
+      "category": "Console Error",
+      "severity": "CRITICAL",
+      "page": "Notifications",
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://3002-iyqztfdsdjzoqwi5ep5jz-5c13a017.sandbox.novita.ai/notifications",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "details": "Console error detected: Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": "2025-10-29T05:56:23.340Z"
+    },
+    {
+      "id": 238,
+      "category": "Network Error",
+      "severity": "CRITICAL",
+      "page": "Notifications",
+      "viewport": "mobile",
+      "message": "Page failed to load: 404",
+      "details": "Navigation error for /notifications",
+      "statusCode": 404,
+      "timestamp": "2025-10-29T05:56:24.348Z"
+    },
+    {
+      "id": 239,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: HTML",
+      "timestamp": "2025-10-29T05:56:27.354Z"
+    },
+    {
+      "id": 240,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:27.354Z"
+    },
+    {
+      "id": 241,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:27.354Z"
+    },
+    {
+      "id": 242,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: LINK",
+      "timestamp": "2025-10-29T05:56:27.354Z"
+    },
+    {
+      "id": 243,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:27.354Z"
+    },
+    {
+      "id": 244,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:27.354Z"
+    },
+    {
+      "id": 245,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: META",
+      "timestamp": "2025-10-29T05:56:27.354Z"
+    },
+    {
+      "id": 246,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: SCRIPT",
+      "timestamp": "2025-10-29T05:56:27.354Z"
+    },
+    {
+      "id": 247,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: BODY",
+      "timestamp": "2025-10-29T05:56:27.354Z"
+    },
+    {
+      "id": 248,
+      "category": "CSS/Style Error",
+      "severity": "MEDIUM",
+      "page": "Notifications",
+      "viewport": "mobile",
+      "message": "CSS issue: No computed styles",
+      "details": "Element: DIV",
+      "timestamp": "2025-10-29T05:56:27.354Z"
+    }
+  ]
+}

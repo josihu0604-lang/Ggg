@@ -1,0 +1,339 @@
+/* Liquid Glass 2.0 & Linear 2025 Design System */
+
+@theme {
+  --text-*: initial;
+  --text-xs: 0.75rem;
+  --text-xs--line-height: 1rem;
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.5rem;
+  --text-base: 1rem;
+  --text-base--line-height: 1.5rem;
+  --text-lg: 1.125rem;
+  --text-lg--line-height: 2rem;
+  --text-xl: 1.25rem;
+  --text-xl--line-height: 1.75rem;
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: 2rem;
+  --text-3xl: 2rem;
+  --text-3xl--line-height: 3rem;
+  --text-4xl: 2.5rem;
+  --text-4xl--line-height: 3rem;
+  --text-5xl: 3rem;
+  --text-5xl--line-height: 1;
+  --text-6xl: 3.75rem;
+  --text-6xl--line-height: 1;
+  --text-7xl: 4.5rem;
+  --text-7xl--line-height: 1;
+  --text-8xl: 6rem;
+  --text-8xl--line-height: 1;
+  --text-9xl: 8rem;
+  --text-9xl--line-height: 1;
+
+  --animate-fade-in: fade-in 0.5s linear forwards;
+  --animate-spin-slow: spin 4s linear infinite;
+  --animate-spin-slower: spin 6s linear infinite;
+  --animate-spin-reverse: spin-reverse 1s linear infinite;
+  --animate-spin-reverse-slow: spin-reverse 4s linear infinite;
+  --animate-spin-reverse-slower: spin-reverse 6s linear infinite;
+  --animate-liquid-appear: liquid-appear 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  --animate-liquid-flow: liquid-flow 0.8s ease-out forwards;
+  --animate-liquid-pulse: liquid-pulse 2s ease-in-out infinite;
+
+  --radius-4xl: 2rem;
+  --radius-5xl: 2.5rem;
+
+  --color-gray-50: oklch(0.985 0 0);
+  --color-gray-100: oklch(0.97 0 0);
+  --color-gray-200: oklch(0.922 0 0);
+  --color-gray-300: oklch(0.87 0 0);
+  --color-gray-400: oklch(0.708 0 0);
+  --color-gray-500: oklch(0.556 0 0);
+  --color-gray-600: oklch(0.439 0 0);
+  --color-gray-700: oklch(0.371 0 0);
+  --color-gray-800: oklch(0.269 0 0);
+  --color-gray-900: oklch(0.205 0 0);
+  --color-gray-950: oklch(0.145 0 0);
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  --container-2xl: 40rem;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes spin-reverse {
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+
+  @keyframes liquid-appear {
+    0% { 
+      opacity: 0; 
+      transform: translateY(20px) scale(0.97); 
+      backdrop-filter: blur(0px); 
+    }
+    60% { 
+      transform: translateY(-4px) scale(1.02); 
+      backdrop-filter: blur(40px); 
+    }
+    100% { 
+      opacity: 1; 
+      transform: none; 
+      backdrop-filter: blur(32px); 
+    }
+  }
+
+  @keyframes liquid-flow {
+    0%, 100% { 
+      backdrop-filter: blur(56px) saturate(120%); 
+    }
+    50% { 
+      backdrop-filter: blur(64px) saturate(140%); 
+    }
+  }
+
+  @keyframes liquid-pulse {
+    0%,
+    100% {
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+    50% {
+      box-shadow: 0 0 40px rgba(255, 255, 255, 0.2);
+    }
+  }
+}
+
+@theme inline {
+  --animate-marquee: marquee var(--marquee-duration) linear infinite;
+
+  @keyframes marquee {
+    100% {
+      transform: translateY(-50%);
+    }
+  }
+}
+
+/* Liquid Glass Components */
+
+.liquid-glass-offer {
+  background: linear-gradient(
+    135deg,
+    rgba(58, 58, 62, 0.9) 0%,
+    rgba(42, 42, 46, 0.95) 100%
+  );
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.liquid-glass-sheet {
+  background: linear-gradient(
+    180deg,
+    rgba(28, 28, 32, 0.98) 0%,
+    rgba(20, 20, 24, 0.99) 100%
+  );
+  backdrop-filter: blur(40px) saturate(150%);
+  -webkit-backdrop-filter: blur(40px) saturate(150%);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 -8px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* === Dock (Bottom Navigation Container) === */
+.dock {
+  background: linear-gradient(
+    180deg, 
+    rgba(46, 46, 50, 0.95), 
+    rgba(38, 38, 42, 0.98)
+  );
+  backdrop-filter: blur(40px) saturate(140%);
+  -webkit-backdrop-filter: blur(40px) saturate(140%);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.liquid-glass-critical {
+  background: linear-gradient(
+    135deg,
+    rgba(220, 38, 38, 0.12) 0%,
+    rgba(185, 28, 28, 0.08) 100%
+  );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(220, 38, 38, 0.3);
+  box-shadow: 0 8px 32px rgba(220, 38, 38, 0.15);
+}
+
+/* === Icon Buttons (48x48, Accessibility/Motion Unified) === */
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(46, 46, 50, 0.7);
+  backdrop-filter: blur(20px) saturate(130%);
+  -webkit-backdrop-filter: blur(20px) saturate(130%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: 
+    transform 120ms cubic-bezier(0.2, 0.7, 0.2, 1), 
+    filter 120ms cubic-bezier(0.2, 0.7, 0.2, 1), 
+    background 120ms cubic-bezier(0.2, 0.7, 0.2, 1);
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.icon-btn:hover {
+  filter: brightness(1.08);
+}
+
+.icon-btn:active {
+  transform: scale(0.96);
+}
+
+.icon-btn[data-active="true"] {
+  background: rgba(249, 115, 22, 0.2);
+  border-color: rgba(249, 115, 22, 0.5);
+  box-shadow: 0 0 0 4px rgba(249, 115, 22, 0.15), 0 4px 16px rgba(249, 115, 22, 0.3);
+  color: #fff;
+}
+
+/* Cluster Pills */
+
+.cluster-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* === Accessibility: Motion Reduction === */
+@media (prefers-reduced-motion: reduce) {
+  .icon-btn, 
+  .animate-liquid-appear, 
+  .animate-liquid-flow,
+  .liquid-glass-offer,
+  .liquid-glass-sheet,
+  .dock { 
+    animation: none !important; 
+    transition: none !important; 
+  }
+}
+
+/* === Safe area & a11y utilities === */
+:root {
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.pt-safe { 
+  padding-top: max(0px, var(--safe-top)); 
+}
+
+.pb-safe { 
+  padding-bottom: max(0px, var(--safe-bottom)); 
+}
+
+.sr-only { 
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Focus visible for keyboard navigation */
+.sr-only:focus,
+.sr-only:active {
+  position: static;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+/* === Enhanced Liquid Glass Design Tokens (Linear 2025) === */
+:root {
+  /* Deep Gray Scale (OKLCH) */
+  --bg-deepest: oklch(0.08 0.002 280);
+  --bg-base:    oklch(0.15 0.004 280);
+  --bg-elev:    oklch(0.18 0.005 280);
+  --hairline:   oklch(1 0 0 / 0.06);
+  --shadow:     oklch(0 0 0 / 0.16);
+
+  /* Motion Tokens */
+  --dur-xs: 120ms;
+  --dur-sm: 200ms;
+  --dur-md: 240ms;
+  --ease-std: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-strong: cubic-bezier(0.17, 0.67, 0.23, 1.01);
+
+  /* Blur Tokens */
+  --blur-sm: 20px;
+  --blur:    32px;
+  --blur-md: 40px;
+  --blur-xl: 56px;
+
+  /* Brand Colors */
+  --brand: oklch(0.68 0.14 30);     /* Orange */
+  --success: oklch(0.70 0.12 150);  /* Green */
+  --danger:  oklch(0.55 0.22 25);   /* Red */
+}
+
+/* === Glass Card (Base Card Skin) === */
+.glass-card {
+  background: linear-gradient(
+    180deg, 
+    rgba(46, 46, 50, 0.9), 
+    rgba(38, 38, 42, 0.95)
+  );
+  backdrop-filter: blur(32px) saturate(140%);
+  -webkit-backdrop-filter: blur(32px) saturate(140%);
+  border: 0.5px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 
+    0 4px 24px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+/* Slide Up Animation for Modals */
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+}
+
+/* Scrollbar Hide Utility */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
